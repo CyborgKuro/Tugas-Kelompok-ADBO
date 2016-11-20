@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_a0175d1d975b1f054e237c7dd71fb06a" kind="dir">
+    <compoundname>C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script</compoundname>
+    <innerfile refid="_back_ground_8cs">BackGround.cs</innerfile>
+    <innerfile refid="_game_controller_8cs">GameController.cs</innerfile>
+    <innerfile refid="_runner_8cs">Runner.cs</innerfile>
+    <innerfile refid="_siang_malam_8cs">SiangMalam.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/"/>
+  </compounddef>
+</doxygen>

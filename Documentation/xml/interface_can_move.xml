@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="interface_can_move" kind="interface" language="C#" prot="public">
+    <compoundname>CanMove</compoundname>
+    <derivedcompoundref refid="class_runner" prot="public" virt="non-virtual">Runner</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_can_move_1a2c40a4dc4684e8f04e31ff59d4ec74e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CanMove.Move</definition>
+        <argsstring>()</argsstring>
+        <name>Move</name>
+        <reimplementedby refid="class_runner_1add0c89849fa2e023ed488ba80c7daf4a">Move</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Model/Script/CanMove.cs" line="7" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>CanMove</label>
+        <link refid="interface_can_move"/>
+      </node>
+      <node id="5">
+        <label>Runner</label>
+        <link refid="class_runner"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Model/Script/CanMove.cs" line="4" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Model/Script/CanMove.cs" bodystart="4" bodyend="8"/>
+    <listofallmembers>
+      <member refid="interface_can_move_1a2c40a4dc4684e8f04e31ff59d4ec74e0" prot="public" virt="non-virtual"><scope>CanMove</scope><name>Move</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_runner" kind="class" language="C#" prot="public">
+    <compoundname>Runner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_can_move" prot="public" virt="non-virtual">CanMove</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_runner_1a85b9f49394f688dd641ec212fb50f6e1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Runner.falling</definition>
+        <argsstring></argsstring>
+        <name>falling</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>true = sedang melompat, false = tidak sedang melompat. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" line="12" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runner_1a916cda5112614d14eeb00cfd36e07271" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Runner.jumpHeight</definition>
+        <argsstring></argsstring>
+        <name>jumpHeight</name>
+        <initializer>=1</initializer>
+        <briefdescription>
+<para>Tinggi lompatan. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" line="17" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runner_1ac867db18d54bb9359d338e09e0a11800" prot="private" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource Runner.sfxJump</definition>
+        <argsstring></argsstring>
+        <name>sfxJump</name>
+        <briefdescription>
+<para>Atribut yang akan mendapatkan audio source dari atribut soundFXJump. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" line="27" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runner_1a1a9f9b2c8ed60b121fd159f179508bd8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Runner.ukuranColliderX</definition>
+        <argsstring></argsstring>
+        <name>ukuranColliderX</name>
+        <briefdescription>
+<para>Ukuran collider x dan y. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" line="32" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runner_1a7177c49a2b0566af6441c7f3e716986d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Runner.ukuranColliderY</definition>
+        <argsstring></argsstring>
+        <name>ukuranColliderY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" line="32" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runner_1ab4906b9c1ef7ddc421fd30cb39bfc0fd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Runner.suaraSedangJalan</definition>
+        <argsstring></argsstring>
+        <name>suaraSedangJalan</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+<para>Status apakah suara sedang jalan. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" line="37" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_runner_1a7480846642a3f6ed85a33479d93a46eb" prot="public" static="no" mutable="no">
+        <type>AudioSource</type>
+        <definition>AudioSource Runner.soundFXJump</definition>
+        <argsstring></argsstring>
+        <name>soundFXJump</name>
+        <briefdescription>
+<para>Atribut yang akan diisikan audio source dari unity. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" line="22" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_runner_1a8ca1759965a257342f8fe6ff03586f18" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Runner.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>Method ini berfungsi untuk inisialisasi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" line="42" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runner_1a0a77ae524280793a8fca099c16dabf3e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Runner.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>Mengecek apakah game sudah selesai atau belum, bila belum maka character akan digerakan. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" line="53" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" bodystart="53" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runner_1adade8b133100913d897b54fed24b40a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Runner.OnCollisionStay2D</definition>
+        <argsstring>()</argsstring>
+        <name>OnCollisionStay2D</name>
+        <briefdescription>
+<para>Membolehkan character untuk melompat serta suara agar bisa diplay ulang. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" line="96" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" bodystart="96" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_runner_1add0c89849fa2e023ed488ba80c7daf4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Runner.Move</definition>
+        <argsstring>()</argsstring>
+        <name>Move</name>
+        <reimplements refid="interface_can_move_1a2c40a4dc4684e8f04e31ff59d4ec74e0">Move</reimplements>
+        <briefdescription>
+<para>menggerakan character sesuai input pemain. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" line="63" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" bodystart="63" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Kelas <ref refid="class_runner" kindref="compound">Runner</ref> merepresentasikan runner. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="53">
+        <label>CanMove</label>
+        <link refid="interface_can_move"/>
+      </node>
+      <node id="52">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="51">
+        <label>Runner</label>
+        <link refid="class_runner"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="56">
+        <label>CanMove</label>
+        <link refid="interface_can_move"/>
+      </node>
+      <node id="55">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="54">
+        <label>Runner</label>
+        <link refid="class_runner"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" line="7" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/Runner.cs" bodystart="7" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_runner_1a85b9f49394f688dd641ec212fb50f6e1" prot="private" virt="non-virtual"><scope>Runner</scope><name>falling</name></member>
+      <member refid="class_runner_1a916cda5112614d14eeb00cfd36e07271" prot="private" virt="non-virtual"><scope>Runner</scope><name>jumpHeight</name></member>
+      <member refid="class_runner_1add0c89849fa2e023ed488ba80c7daf4a" prot="public" virt="non-virtual"><scope>Runner</scope><name>Move</name></member>
+      <member refid="class_runner_1adade8b133100913d897b54fed24b40a4" prot="private" virt="non-virtual"><scope>Runner</scope><name>OnCollisionStay2D</name></member>
+      <member refid="class_runner_1ac867db18d54bb9359d338e09e0a11800" prot="private" virt="non-virtual"><scope>Runner</scope><name>sfxJump</name></member>
+      <member refid="class_runner_1a7480846642a3f6ed85a33479d93a46eb" prot="public" virt="non-virtual"><scope>Runner</scope><name>soundFXJump</name></member>
+      <member refid="class_runner_1a8ca1759965a257342f8fe6ff03586f18" prot="private" virt="non-virtual"><scope>Runner</scope><name>Start</name></member>
+      <member refid="class_runner_1ab4906b9c1ef7ddc421fd30cb39bfc0fd" prot="private" virt="non-virtual"><scope>Runner</scope><name>suaraSedangJalan</name></member>
+      <member refid="class_runner_1a1a9f9b2c8ed60b121fd159f179508bd8" prot="private" virt="non-virtual"><scope>Runner</scope><name>ukuranColliderX</name></member>
+      <member refid="class_runner_1a7177c49a2b0566af6441c7f3e716986d" prot="private" virt="non-virtual"><scope>Runner</scope><name>ukuranColliderY</name></member>
+      <member refid="class_runner_1a0a77ae524280793a8fca099c16dabf3e" prot="private" virt="non-virtual"><scope>Runner</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

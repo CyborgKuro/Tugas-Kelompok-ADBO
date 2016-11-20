@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_preference_controller" kind="class" language="C#" prot="public">
+    <compoundname>PreferenceController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_preference_controller_1a1eae6170b41b81919c9ecf14c0ecb86c" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button PreferenceController.returnButton</definition>
+        <argsstring></argsstring>
+        <name>returnButton</name>
+        <briefdescription>
+<para>Button - button yang ada di PreferenceScene. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/PreferenceController.cs" line="14" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/PreferenceController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_preference_controller_1a38287cb7cb88ba5b651c84f63efb57d3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PreferenceController.previousLevel</definition>
+        <argsstring></argsstring>
+        <name>previousLevel</name>
+        <briefdescription>
+<para>Atribut yang menyimpan nama scene sebelumnya. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/PreferenceController.cs" line="19" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/PreferenceController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_preference_controller_1ac1f51dd39b0846f7259bcf2e028cd486" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PreferenceController.VolumeSliderChanged</definition>
+        <argsstring>(float newValue)</argsstring>
+        <name>VolumeSliderChanged</name>
+        <param>
+          <type>float</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+<para>Mengatur volume suara dengan VolumeSlider. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/PreferenceController.cs" line="25" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/PreferenceController.cs" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_preference_controller_1a27079e068e495b9815668db8ceaff04b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PreferenceController.returnBtnOnClick</definition>
+        <argsstring>()</argsstring>
+        <name>returnBtnOnClick</name>
+        <briefdescription>
+<para>Mengatur tindakan yang dilakukan saat button ReturnButton diklik. Tindakan : Kembali ke layar sebelumnya. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/PreferenceController.cs" line="42" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/PreferenceController.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_preference_controller_1a50d42cd92cb3737c2a28227d9074f025" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PreferenceController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>Method ini berfungsi untuk inisialisasi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/PreferenceController.cs" line="32" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/PreferenceController.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Kelas <ref refid="class_preference_controller" kindref="compound">PreferenceController</ref> mengontrol PreferenceScene. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="43">
+        <label>PreferenceController</label>
+        <link refid="class_preference_controller"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="45">
+        <label>PreferenceController</label>
+        <link refid="class_preference_controller"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/PreferenceController.cs" line="9" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/PreferenceController.cs" bodystart="9" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_preference_controller_1a38287cb7cb88ba5b651c84f63efb57d3" prot="private" virt="non-virtual"><scope>PreferenceController</scope><name>previousLevel</name></member>
+      <member refid="class_preference_controller_1a27079e068e495b9815668db8ceaff04b" prot="public" virt="non-virtual"><scope>PreferenceController</scope><name>returnBtnOnClick</name></member>
+      <member refid="class_preference_controller_1a1eae6170b41b81919c9ecf14c0ecb86c" prot="public" virt="non-virtual"><scope>PreferenceController</scope><name>returnButton</name></member>
+      <member refid="class_preference_controller_1a50d42cd92cb3737c2a28227d9074f025" prot="private" virt="non-virtual"><scope>PreferenceController</scope><name>Start</name></member>
+      <member refid="class_preference_controller_1ac1f51dd39b0846f7259bcf2e028cd486" prot="public" virt="non-virtual"><scope>PreferenceController</scope><name>VolumeSliderChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

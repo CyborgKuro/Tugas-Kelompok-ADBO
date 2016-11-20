@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_credit_controller" kind="class" language="C#" prot="public">
+    <compoundname>CreditController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_credit_controller_1a8b122365e9edd7291df09824506f726d" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button CreditController.MainMenuButton</definition>
+        <argsstring></argsstring>
+        <name>MainMenuButton</name>
+        <briefdescription>
+<para>Button - button yang ada di CreditScene. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/CreditController.cs" line="14" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/CreditController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_credit_controller_1ab13bb8128496aa39ef4bf90fc2dc301c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CreditController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>Method ini berfungsi untuk inisialisasi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/CreditController.cs" line="19" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/CreditController.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_credit_controller_1ad486d59710cfdbb207f0c4835143f86d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CreditController.mainMenuBtnOnClick</definition>
+        <argsstring>()</argsstring>
+        <name>mainMenuBtnOnClick</name>
+        <briefdescription>
+<para>Mengatur tindakan yang dilakukan saat button StartGameButton diklik. Tindakan : Memulai game. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/CreditController.cs" line="29" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/CreditController.cs" bodystart="29" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Kelas <ref refid="class_credit_controller" kindref="compound">CreditController</ref> mengontrol CreditScene. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>CreditController</label>
+        <link refid="class_credit_controller"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>CreditController</label>
+        <link refid="class_credit_controller"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/CreditController.cs" line="9" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/CreditController.cs" bodystart="9" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_credit_controller_1ad486d59710cfdbb207f0c4835143f86d" prot="public" virt="non-virtual"><scope>CreditController</scope><name>mainMenuBtnOnClick</name></member>
+      <member refid="class_credit_controller_1a8b122365e9edd7291df09824506f726d" prot="public" virt="non-virtual"><scope>CreditController</scope><name>MainMenuButton</name></member>
+      <member refid="class_credit_controller_1ab13bb8128496aa39ef4bf90fc2dc301c" prot="private" virt="non-virtual"><scope>CreditController</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

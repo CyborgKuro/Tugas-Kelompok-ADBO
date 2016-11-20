@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_game_controller" kind="class" language="C#" prot="public">
+    <compoundname>GameController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_controller_1a3c8b6537f452bb394f3f4ae2c8058db6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GameController.sc</definition>
+        <argsstring></argsstring>
+        <name>sc</name>
+        <briefdescription>
+<para>Atribut score 1. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" line="12" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_controller_1a34cc7a28d9dcaa30ef55ab5df55d0871" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GameController.sco</definition>
+        <argsstring></argsstring>
+        <name>sco</name>
+        <briefdescription>
+<para>Atribut score 2. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" line="17" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_controller_1a7285b113c7fc4e20719e27438aa93712" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GameController.high</definition>
+        <argsstring></argsstring>
+        <name>high</name>
+        <briefdescription>
+<para>High Score. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" line="22" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_game_controller_1a2aac028a07d314dc16cc7e78afef4ca6" prot="public" static="no" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle GameController.style1</definition>
+        <argsstring></argsstring>
+        <name>style1</name>
+        <briefdescription>
+<para>Style GUI. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" line="27" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_controller_1a97788a7aa0f09c8d748781683e5f045b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" line="29" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_controller_1a5a89277529cadb49af7d55eba3bbf056" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>Update score. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" line="37" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" bodystart="37" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_controller_1a5e389c95cab062660c8637ca712b798a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameController.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+<para>Menampilkan score dilayar. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" line="51" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" bodystart="51" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Kelas <ref refid="class_game_controller" kindref="compound">GameController</ref> mengatur score game. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="17">
+        <label>GameController</label>
+        <link refid="class_game_controller"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>GameController</label>
+        <link refid="class_game_controller"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" line="7" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/GameController.cs" bodystart="7" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_game_controller_1a7285b113c7fc4e20719e27438aa93712" prot="private" virt="non-virtual"><scope>GameController</scope><name>high</name></member>
+      <member refid="class_game_controller_1a5e389c95cab062660c8637ca712b798a" prot="private" virt="non-virtual"><scope>GameController</scope><name>OnGUI</name></member>
+      <member refid="class_game_controller_1a3c8b6537f452bb394f3f4ae2c8058db6" prot="private" virt="non-virtual"><scope>GameController</scope><name>sc</name></member>
+      <member refid="class_game_controller_1a34cc7a28d9dcaa30ef55ab5df55d0871" prot="private" virt="non-virtual"><scope>GameController</scope><name>sco</name></member>
+      <member refid="class_game_controller_1a97788a7aa0f09c8d748781683e5f045b" prot="private" virt="non-virtual"><scope>GameController</scope><name>Start</name></member>
+      <member refid="class_game_controller_1a2aac028a07d314dc16cc7e78afef4ca6" prot="public" virt="non-virtual"><scope>GameController</scope><name>style1</name></member>
+      <member refid="class_game_controller_1a5a89277529cadb49af7d55eba3bbf056" prot="private" virt="non-virtual"><scope>GameController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

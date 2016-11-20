@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_d98180be2e1c3a0b821921adbf8078bb" kind="dir">
+    <compoundname>C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Model/Script</compoundname>
+    <innerfile refid="_can_move_8cs">CanMove.cs</innerfile>
+    <innerfile refid="_high_score_8cs">HighScore.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Model/Script/"/>
+  </compounddef>
+</doxygen>

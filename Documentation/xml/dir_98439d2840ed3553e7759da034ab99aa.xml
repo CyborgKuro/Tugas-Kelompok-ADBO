@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_98439d2840ed3553e7759da034ab99aa" kind="dir">
+    <compoundname>C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets</compoundname>
+    <innerdir refid="dir_935343139c0847615a79cfefbda7fc62">C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller</innerdir>
+    <innerdir refid="dir_3f15a63eaaaa1d782932c0b68325cec2">C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Model</innerdir>
+    <innerdir refid="dir_207986d716c2b81c94eb3ce5549835b1">C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_f7fa21bf1597deec3358a7669b6e4dca" kind="dir">
+    <compoundname>C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script</compoundname>
+    <innerfile refid="_credit_controller_8cs">CreditController.cs</innerfile>
+    <innerfile refid="_flying_obstacle_8cs">FlyingObstacle.cs</innerfile>
+    <innerfile refid="_game_over_8cs">GameOver.cs</innerfile>
+    <innerfile refid="_main_menu_controller_8cs">MainMenuController.cs</innerfile>
+    <innerfile refid="_obstacle_8cs">Obstacle.cs</innerfile>
+    <innerfile refid="_on_the_ground_obstacle_8cs">OnTheGroundObstacle.cs</innerfile>
+    <innerfile refid="_preference_controller_8cs">PreferenceController.cs</innerfile>
+    <innerfile refid="_quit_controller_8cs">QuitController.cs</innerfile>
+    <innerfile refid="_sounds_controller_8cs">SoundsController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/"/>
+  </compounddef>
+</doxygen>

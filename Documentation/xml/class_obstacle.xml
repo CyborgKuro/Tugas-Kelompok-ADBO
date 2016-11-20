@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_obstacle" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Obstacle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <derivedcompoundref refid="class_flying_obstacle" prot="public" virt="non-virtual">FlyingObstacle</derivedcompoundref>
+    <derivedcompoundref refid="class_on_the_ground_obstacle" prot="public" virt="non-virtual">OnTheGroundObstacle</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_obstacle_1a388c8e33dc5a1378f622c048891d0306" prot="public" static="no" mutable="no">
+        <type>GameObject []</type>
+        <definition>GameObject [] Obstacle.ob</definition>
+        <argsstring></argsstring>
+        <name>ob</name>
+        <briefdescription>
+<para>Array of obstacle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" line="12" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_obstacle_1ad1f3a9f914fb5fbe9367143d8d20ed67" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Obstacle.campos</definition>
+        <argsstring></argsstring>
+        <name>campos</name>
+        <briefdescription>
+<para>Camera Position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" line="17" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_obstacle_1a84513c71d850ac7c67915fcee2d3df1b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Obstacle.gap</definition>
+        <argsstring></argsstring>
+        <name>gap</name>
+        <initializer>=1.5f</initializer>
+        <briefdescription>
+<para>Gap antar obstacle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" line="22" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_obstacle_1a079bd35101bc96d528ef7246f28de6ea" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Obstacle.obs</definition>
+        <argsstring></argsstring>
+        <name>obs</name>
+        <briefdescription>
+<para><ref refid="class_obstacle" kindref="compound">Obstacle</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" line="27" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_obstacle_1adf2ba97f98b9caacbfb72675371462b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Obstacle.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>Method ini berfungsi untuk inisialisasi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" line="32" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_obstacle_1a05a5ecc8f05055ea28d5349236b4d753" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Obstacle.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>Mengatur kemunculan obstacle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" line="39" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" bodystart="39" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_obstacle_1a19f2f5d2c3176ee9ea8840862c55aa42" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void Obstacle.ObstacleMaker</definition>
+        <argsstring>()</argsstring>
+        <name>ObstacleMaker</name>
+        <reimplementedby refid="class_on_the_ground_obstacle_1a6c6123b29a6d6c2b78fa12ff72bf0834">ObstacleMaker</reimplementedby>
+        <reimplementedby refid="class_flying_obstacle_1a1c21c97ab8d9efa1c120103a2cd5cb34">ObstacleMaker</reimplementedby>
+        <briefdescription>
+<para>Method abstract pembuat obstacle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" line="52" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Kelas abstract <ref refid="class_obstacle" kindref="compound">Obstacle</ref> merepresentasikan obstacle. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="34">
+        <label>OnTheGroundObstacle</label>
+        <link refid="class_on_the_ground_obstacle"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>Obstacle</label>
+        <link refid="class_obstacle"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="33">
+        <label>FlyingObstacle</label>
+        <link refid="class_flying_obstacle"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>Obstacle</label>
+        <link refid="class_obstacle"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" line="7" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/Obstacle.cs" bodystart="7" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_obstacle_1ad1f3a9f914fb5fbe9367143d8d20ed67" prot="public" virt="non-virtual"><scope>Obstacle</scope><name>campos</name></member>
+      <member refid="class_obstacle_1a84513c71d850ac7c67915fcee2d3df1b" prot="public" virt="non-virtual"><scope>Obstacle</scope><name>gap</name></member>
+      <member refid="class_obstacle_1a388c8e33dc5a1378f622c048891d0306" prot="public" virt="non-virtual"><scope>Obstacle</scope><name>ob</name></member>
+      <member refid="class_obstacle_1a079bd35101bc96d528ef7246f28de6ea" prot="public" virt="non-virtual"><scope>Obstacle</scope><name>obs</name></member>
+      <member refid="class_obstacle_1a19f2f5d2c3176ee9ea8840862c55aa42" prot="public" virt="pure-virtual"><scope>Obstacle</scope><name>ObstacleMaker</name></member>
+      <member refid="class_obstacle_1adf2ba97f98b9caacbfb72675371462b0" prot="private" virt="non-virtual"><scope>Obstacle</scope><name>Start</name></member>
+      <member refid="class_obstacle_1a05a5ecc8f05055ea28d5349236b4d753" prot="private" virt="non-virtual"><scope>Obstacle</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

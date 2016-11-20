@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_high_score_script" kind="class" language="C#" prot="public">
+    <compoundname>HighScoreScript</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_high_score_script_1a481a30c3e39d2e330f78346ac0424113" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int HighScoreScript.highScores</definition>
+        <argsstring></argsstring>
+        <name>highScores</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Model/Script/HighScore.cs" line="6" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Model/Script/HighScore.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_high_score_script_1a3f1b9e311b60157195b01e31b1e6b6d1" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool HighScoreScript.gameOver</definition>
+        <argsstring></argsstring>
+        <name>gameOver</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Model/Script/HighScore.cs" line="7" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Model/Script/HighScore.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Model/Script/HighScore.cs" line="4" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Model/Script/HighScore.cs" bodystart="4" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_high_score_script_1a3f1b9e311b60157195b01e31b1e6b6d1" prot="public" virt="non-virtual"><scope>HighScoreScript</scope><name>gameOver</name></member>
+      <member refid="class_high_score_script_1a481a30c3e39d2e330f78346ac0424113" prot="public" virt="non-virtual"><scope>HighScoreScript</scope><name>highScores</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

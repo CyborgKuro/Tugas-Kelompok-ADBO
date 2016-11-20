@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_back_ground" kind="class" language="C#" prot="public">
+    <compoundname>BackGround</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_back_ground_1a06610c936d3cf14390e6277724299c85" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BackGround.OnTriggerExit2D</definition>
+        <argsstring>(Collider2D coll)</argsstring>
+        <name>OnTriggerExit2D</name>
+        <param>
+          <type>Collider2D</type>
+          <declname>coll</declname>
+        </param>
+        <briefdescription>
+<para>Mengatur gerak background. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coll</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Collider pembatas background.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/BackGround.cs" line="13" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/BackGround.cs" bodystart="13" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Kelas <ref refid="class_back_ground" kindref="compound">BackGround</ref> mengatur background pada GameScene. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>BackGround</label>
+        <link refid="class_back_ground"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BackGround</label>
+        <link refid="class_back_ground"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/BackGround.cs" line="7" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/BackGround.cs" bodystart="7" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_back_ground_1a06610c936d3cf14390e6277724299c85" prot="private" virt="non-virtual"><scope>BackGround</scope><name>OnTriggerExit2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

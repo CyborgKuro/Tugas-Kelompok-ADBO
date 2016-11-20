@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_quit_controller" kind="class" language="C#" prot="public">
+    <compoundname>QuitController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_quit_controller_1a988a4085bd05debd186ee7475e758404" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button QuitController.YesButton</definition>
+        <argsstring></argsstring>
+        <name>YesButton</name>
+        <briefdescription>
+<para>Button - button yang ada di QuitScene. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" line="14" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_quit_controller_1aaf3f96144f9ef7a93e6828ced4a72a68" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button QuitController.NoButton</definition>
+        <argsstring></argsstring>
+        <name>NoButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" line="14" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_quit_controller_1a7c04f8927936ef107c8b4061fb940c44" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string QuitController.previousLevel</definition>
+        <argsstring></argsstring>
+        <name>previousLevel</name>
+        <briefdescription>
+<para>Atribut yang menyimpan nama scene sebelumnya. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" line="19" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_quit_controller_1a10a91d9dd9fa969f3c262b790552b12e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuitController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>Method ini berfungsi untuk inisialisasi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" line="24" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" bodystart="24" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_quit_controller_1a3f4f0e9b67108e4a0608f4c2085cac84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuitController.yesBtnOnClick</definition>
+        <argsstring>()</argsstring>
+        <name>yesBtnOnClick</name>
+        <briefdescription>
+<para>Mengatur tindakan yang dilakukan saat button YesButton diklik. Tindakan : Keluar dari game. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" line="36" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" bodystart="36" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_quit_controller_1aa0339f4778f5e947a0f1a041734757f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void QuitController.noBtnOnClick</definition>
+        <argsstring>()</argsstring>
+        <name>noBtnOnClick</name>
+        <briefdescription>
+<para>Mengatur tindakan yang dilakukan saat button NoButton diklik. Tindakan : Kembali ke layar sebelumnya. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" line="44" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Kelas <ref refid="class_quit_controller" kindref="compound">QuitController</ref> mengontrol QuitScene. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="47">
+        <label>QuitController</label>
+        <link refid="class_quit_controller"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="49">
+        <label>QuitController</label>
+        <link refid="class_quit_controller"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" line="9" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/QuitController.cs" bodystart="9" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_quit_controller_1aa0339f4778f5e947a0f1a041734757f0" prot="public" virt="non-virtual"><scope>QuitController</scope><name>noBtnOnClick</name></member>
+      <member refid="class_quit_controller_1aaf3f96144f9ef7a93e6828ced4a72a68" prot="private" virt="non-virtual"><scope>QuitController</scope><name>NoButton</name></member>
+      <member refid="class_quit_controller_1a7c04f8927936ef107c8b4061fb940c44" prot="private" virt="non-virtual"><scope>QuitController</scope><name>previousLevel</name></member>
+      <member refid="class_quit_controller_1a10a91d9dd9fa969f3c262b790552b12e" prot="private" virt="non-virtual"><scope>QuitController</scope><name>Start</name></member>
+      <member refid="class_quit_controller_1a3f4f0e9b67108e4a0608f4c2085cac84" prot="public" virt="non-virtual"><scope>QuitController</scope><name>yesBtnOnClick</name></member>
+      <member refid="class_quit_controller_1a988a4085bd05debd186ee7475e758404" prot="public" virt="non-virtual"><scope>QuitController</scope><name>YesButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_siang_malam" kind="class" language="C#" prot="public">
+    <compoundname>SiangMalam</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_siang_malam_1a0178556607a805c0d69f623512bb1bf5" prot="public" static="no" mutable="no">
+        <type>Shader</type>
+        <definition>Shader SiangMalam.HSVShader</definition>
+        <argsstring></argsstring>
+        <name>HSVShader</name>
+        <briefdescription>
+<para>The HSV shader. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="12" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_siang_malam_1af85d640c6eebc35947063e0df9595794" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SiangMalam.siang</definition>
+        <argsstring></argsstring>
+        <name>siang</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>true = siang, false = malam. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="17" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_siang_malam_1a28d5bb8091f1f0160959fce37bdafccd" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SiangMalam.ob1</definition>
+        <argsstring></argsstring>
+        <name>ob1</name>
+        <briefdescription>
+<para>Object game 1. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="22" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_siang_malam_1ac903e5559288c82b9767674461899742" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SiangMalam.ob2</definition>
+        <argsstring></argsstring>
+        <name>ob2</name>
+        <briefdescription>
+<para>Object game 2. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="27" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_siang_malam_1a1a1e6645cb6a9e4cfa6d753a5c10cfcf" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SiangMalam.bulan</definition>
+        <argsstring></argsstring>
+        <name>bulan</name>
+        <briefdescription>
+<para>Bulan. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="57" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_siang_malam_1a2d931b869867f22ed03b106d66868354" prot="public" static="no" mutable="no">
+        <type>Sprite []</type>
+        <definition>Sprite [] SiangMalam.bulanSprites</definition>
+        <argsstring></argsstring>
+        <name>bulanSprites</name>
+        <briefdescription>
+<para>Sprites bulan. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="62" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_siang_malam_1a974cdbc53438c8d1bf3c8806ae674e55" prot="private" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer SiangMalam.sr1</definition>
+        <argsstring></argsstring>
+        <name>sr1</name>
+        <briefdescription>
+<para>Sprite renderer 1. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="32" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_siang_malam_1a4e578eb88d5b333f87a552d6790ff41c" prot="private" static="no" mutable="no">
+        <type>SpriteRenderer</type>
+        <definition>SpriteRenderer SiangMalam.sr2</definition>
+        <argsstring></argsstring>
+        <name>sr2</name>
+        <briefdescription>
+<para>Sprite renderer 2. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="37" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_siang_malam_1a53c15649831d17e78ad7c97c88694f50" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SiangMalam.delay</definition>
+        <argsstring></argsstring>
+        <name>delay</name>
+        <briefdescription>
+<para>Delay. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="42" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_siang_malam_1a4f6e9a8424f509a060cdad9f1285558f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SiangMalam.delayDalamGame</definition>
+        <argsstring></argsstring>
+        <name>delayDalamGame</name>
+        <briefdescription>
+<para>Delay dalam game. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="47" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_siang_malam_1acde28183f9e292b7f34f2552313e7eec" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SiangMalam.statusBulan</definition>
+        <argsstring></argsstring>
+        <name>statusBulan</name>
+        <briefdescription>
+<para>Status bulan. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="52" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_siang_malam_1ab2492079eb39340b5b21c3ccdcc1a185" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SiangMalam.bulanPurnama</definition>
+        <argsstring></argsstring>
+        <name>bulanPurnama</name>
+        <briefdescription>
+<para>Bulan purnama : true = ya, false = tidak. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="67" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_siang_malam_1a51e9f4ca95ceeca75a262ed1474a08ec" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SiangMalam.alphaBulan</definition>
+        <argsstring></argsstring>
+        <name>alphaBulan</name>
+        <briefdescription>
+<para>Alpha bulan. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="72" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_siang_malam_1a9ea4130ba576cc0e6571fef951a36174" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SiangMalam.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>Menghilangkan bulan pada pertama kali dijalankan. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="77" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="77" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_siang_malam_1a3d0f723c82044a7ef2a2d529803ba0b9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SiangMalam.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>Mengecek apakah game sudah selesai atau belum, bila belum maka warna background akan diubah serta apakah bulan akan ditampilkan atau tidak. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="92" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="92" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_siang_malam_1a6b3fe9ec982d1197f26d75ac42821c02" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SiangMalam.UpdateBGColor</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateBGColor</name>
+        <briefdescription>
+<para>Mengupdate warna background serta mengubah-ubah bulan. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="104" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="104" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_siang_malam_1a1fccd6abbcae495a27af288d2aabf9a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SiangMalam.UbahXBulan</definition>
+        <argsstring>()</argsstring>
+        <name>UbahXBulan</name>
+        <briefdescription>
+<para>Memutar posisi bulan. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="152" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="152" bodyend="165"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Kelas <ref refid="class_siang_malam" kindref="compound">SiangMalam</ref> mengatur siang malam di gamr. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="57">
+        <label>SiangMalam</label>
+        <link refid="class_siang_malam"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="59">
+        <label>SiangMalam</label>
+        <link refid="class_siang_malam"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" line="7" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/View/Script/SiangMalam.cs" bodystart="7" bodyend="166"/>
+    <listofallmembers>
+      <member refid="class_siang_malam_1a51e9f4ca95ceeca75a262ed1474a08ec" prot="private" virt="non-virtual"><scope>SiangMalam</scope><name>alphaBulan</name></member>
+      <member refid="class_siang_malam_1a1a1e6645cb6a9e4cfa6d753a5c10cfcf" prot="public" virt="non-virtual"><scope>SiangMalam</scope><name>bulan</name></member>
+      <member refid="class_siang_malam_1ab2492079eb39340b5b21c3ccdcc1a185" prot="private" virt="non-virtual"><scope>SiangMalam</scope><name>bulanPurnama</name></member>
+      <member refid="class_siang_malam_1a2d931b869867f22ed03b106d66868354" prot="public" virt="non-virtual"><scope>SiangMalam</scope><name>bulanSprites</name></member>
+      <member refid="class_siang_malam_1a53c15649831d17e78ad7c97c88694f50" prot="private" virt="non-virtual"><scope>SiangMalam</scope><name>delay</name></member>
+      <member refid="class_siang_malam_1a4f6e9a8424f509a060cdad9f1285558f" prot="private" virt="non-virtual"><scope>SiangMalam</scope><name>delayDalamGame</name></member>
+      <member refid="class_siang_malam_1a0178556607a805c0d69f623512bb1bf5" prot="public" virt="non-virtual"><scope>SiangMalam</scope><name>HSVShader</name></member>
+      <member refid="class_siang_malam_1a28d5bb8091f1f0160959fce37bdafccd" prot="public" virt="non-virtual"><scope>SiangMalam</scope><name>ob1</name></member>
+      <member refid="class_siang_malam_1ac903e5559288c82b9767674461899742" prot="public" virt="non-virtual"><scope>SiangMalam</scope><name>ob2</name></member>
+      <member refid="class_siang_malam_1af85d640c6eebc35947063e0df9595794" prot="public" virt="non-virtual"><scope>SiangMalam</scope><name>siang</name></member>
+      <member refid="class_siang_malam_1a974cdbc53438c8d1bf3c8806ae674e55" prot="private" virt="non-virtual"><scope>SiangMalam</scope><name>sr1</name></member>
+      <member refid="class_siang_malam_1a4e578eb88d5b333f87a552d6790ff41c" prot="private" virt="non-virtual"><scope>SiangMalam</scope><name>sr2</name></member>
+      <member refid="class_siang_malam_1a9ea4130ba576cc0e6571fef951a36174" prot="private" virt="non-virtual"><scope>SiangMalam</scope><name>Start</name></member>
+      <member refid="class_siang_malam_1acde28183f9e292b7f34f2552313e7eec" prot="private" virt="non-virtual"><scope>SiangMalam</scope><name>statusBulan</name></member>
+      <member refid="class_siang_malam_1a1fccd6abbcae495a27af288d2aabf9a6" prot="public" virt="non-virtual"><scope>SiangMalam</scope><name>UbahXBulan</name></member>
+      <member refid="class_siang_malam_1a3d0f723c82044a7ef2a2d529803ba0b9" prot="private" virt="non-virtual"><scope>SiangMalam</scope><name>Update</name></member>
+      <member refid="class_siang_malam_1a6b3fe9ec982d1197f26d75ac42821c02" prot="private" virt="non-virtual"><scope>SiangMalam</scope><name>UpdateBGColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

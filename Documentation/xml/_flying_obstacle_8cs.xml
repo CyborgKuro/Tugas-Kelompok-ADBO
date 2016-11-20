@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_flying_obstacle_8cs" kind="file" language="C#">
+    <compoundname>FlyingObstacle.cs</compoundname>
+    <innerclass refid="class_flying_obstacle" prot="public">FlyingObstacle</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_unity_engine" kindref="compound">UnityEngine</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_flying_obstacle" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_flying_obstacle" kindref="compound">FlyingObstacle</ref><sp/>:<sp/><ref refid="class_obstacle" kindref="compound">Obstacle</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_flying_obstacle_1a1c21c97ab8d9efa1c120103a2cd5cb34" kindref="member">ObstacleMaker</ref>(){</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GameObject<sp/>clone;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_obstacle_1a079bd35101bc96d528ef7246f28de6ea" kindref="member">obs</ref><sp/>=<sp/>Random.Range<sp/>(0,<sp/><ref refid="class_obstacle_1a388c8e33dc5a1378f622c048891d0306" kindref="member">ob</ref>.Length);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clone<sp/>=<sp/>(GameObject)Instantiate<sp/>(<ref refid="class_obstacle_1a388c8e33dc5a1378f622c048891d0306" kindref="member">ob</ref>[Random.Range(0,<ref refid="class_obstacle_1a388c8e33dc5a1378f622c048891d0306" kindref="member">ob</ref>.Length)],</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(transform.position.x+<ref refid="class_obstacle_1a84513c71d850ac7c67915fcee2d3df1b" kindref="member">gap</ref>+4,0.49f,transform.position.z),Quaternion.identity);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clone.name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Quad1&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>xx<sp/>=<sp/>Random.Range<sp/>(1,7);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Invoke<sp/>(</highlight><highlight class="stringliteral">&quot;ObstacleMaker&quot;</highlight><highlight class="normal">,<sp/>xx);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/FlyingObstacle.cs"/>
+  </compounddef>
+</doxygen>

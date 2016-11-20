@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_on_the_ground_obstacle" kind="class" language="C#" prot="public">
+    <compoundname>OnTheGroundObstacle</compoundname>
+    <basecompoundref refid="class_obstacle" prot="public" virt="non-virtual">Obstacle</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_on_the_ground_obstacle_1a6c6123b29a6d6c2b78fa12ff72bf0834" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void OnTheGroundObstacle.ObstacleMaker</definition>
+        <argsstring>()</argsstring>
+        <name>ObstacleMaker</name>
+        <reimplements refid="class_obstacle_1a19f2f5d2c3176ee9ea8840862c55aa42">ObstacleMaker</reimplements>
+        <briefdescription>
+<para>Membuat <ref refid="class_obstacle" kindref="compound">Obstacle</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/OnTheGroundObstacle.cs" line="12" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/OnTheGroundObstacle.cs" bodystart="12" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Kelas <ref refid="class_on_the_ground_obstacle" kindref="compound">OnTheGroundObstacle</ref> merepresentasikan obstacle yang berada di atas tanah. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>OnTheGroundObstacle</label>
+        <link refid="class_on_the_ground_obstacle"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>Obstacle</label>
+        <link refid="class_obstacle"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="40">
+        <label>OnTheGroundObstacle</label>
+        <link refid="class_on_the_ground_obstacle"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>Obstacle</label>
+        <link refid="class_obstacle"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/OnTheGroundObstacle.cs" line="7" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/OnTheGroundObstacle.cs" bodystart="7" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_obstacle_1ad1f3a9f914fb5fbe9367143d8d20ed67" prot="public" virt="non-virtual"><scope>OnTheGroundObstacle</scope><name>campos</name></member>
+      <member refid="class_obstacle_1a84513c71d850ac7c67915fcee2d3df1b" prot="public" virt="non-virtual"><scope>OnTheGroundObstacle</scope><name>gap</name></member>
+      <member refid="class_obstacle_1a388c8e33dc5a1378f622c048891d0306" prot="public" virt="non-virtual"><scope>OnTheGroundObstacle</scope><name>ob</name></member>
+      <member refid="class_obstacle_1a079bd35101bc96d528ef7246f28de6ea" prot="public" virt="non-virtual"><scope>OnTheGroundObstacle</scope><name>obs</name></member>
+      <member refid="class_on_the_ground_obstacle_1a6c6123b29a6d6c2b78fa12ff72bf0834" prot="public" virt="virtual"><scope>OnTheGroundObstacle</scope><name>ObstacleMaker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

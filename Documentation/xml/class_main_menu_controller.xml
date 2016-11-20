@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_main_menu_controller" kind="class" language="C#" prot="public">
+    <compoundname>MainMenuController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_main_menu_controller_1ac8ee65de25015adeee8ee06dca4ff70a" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button MainMenuController.StartGameButton</definition>
+        <argsstring></argsstring>
+        <name>StartGameButton</name>
+        <briefdescription>
+<para>Button - button yang ada di MainMenuScene. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" line="14" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_main_menu_controller_1a37b255555378cc68d9856aef66e36a99" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button MainMenuController.PreferenceButton</definition>
+        <argsstring></argsstring>
+        <name>PreferenceButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" line="14" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_menu_controller_1afadd6dce5e7bb0444c48cd62ba810efd" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button MainMenuController.CreditButton</definition>
+        <argsstring></argsstring>
+        <name>CreditButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" line="14" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_menu_controller_1a4a60333935f76f5bdfcd24a809ec8721" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button MainMenuController.QuitButton</definition>
+        <argsstring></argsstring>
+        <name>QuitButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" line="14" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_main_menu_controller_1a732c505767ad16e6f4726f0e9643fa8a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenuController.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+<para>Method ini berfungsi untuk inisialisasi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" line="19" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" bodystart="19" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_main_menu_controller_1a3093b0f91bebcc757bd100be4ec19951" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenuController.startGameBtnOnClick</definition>
+        <argsstring>()</argsstring>
+        <name>startGameBtnOnClick</name>
+        <briefdescription>
+<para>Mengatur tindakan yang dilakukan saat button StartGameButton diklik. Tindakan : Memulai game. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" line="35" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_menu_controller_1a4d4f79fdc5194e108997fb2b034bc144" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenuController.prefBtnOnClick</definition>
+        <argsstring>()</argsstring>
+        <name>prefBtnOnClick</name>
+        <briefdescription>
+<para>Mengatur tindakan yang dilakukan saat button PreferenceButton diklik. Tindakan : Memunculkan layar Preference. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" line="43" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_menu_controller_1a62a67c2d468bf4b4b45b1eefac4e08e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenuController.creditBtnOnClick</definition>
+        <argsstring>()</argsstring>
+        <name>creditBtnOnClick</name>
+        <briefdescription>
+<para>Mengatur tindakan yang dilakukan saat button CreditButton diklik. Tindakan : Memunculkan layar Credit. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" line="51" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_menu_controller_1a55f91b182c0d99e5697dd8a45aafb82b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainMenuController.quitBtnOnClick</definition>
+        <argsstring>()</argsstring>
+        <name>quitBtnOnClick</name>
+        <briefdescription>
+<para>Mengatur tindakan yang dilakukan saat button QuitButton diklik. Tindakan : Memunculkan layar Quit. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" line="59" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" bodystart="59" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Kelas <ref refid="class_main_menu_controller" kindref="compound">MainMenuController</ref> mengontrol MainMenuScene. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="27">
+        <label>MainMenuController</label>
+        <link refid="class_main_menu_controller"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="29">
+        <label>MainMenuController</label>
+        <link refid="class_main_menu_controller"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" line="9" column="1" bodyfile="C:/Users/Public/Documents/Unity Projects/Ellena/TaDaa/Megaman Endless Run/Assets/Controller/Script/MainMenuController.cs" bodystart="9" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_main_menu_controller_1a62a67c2d468bf4b4b45b1eefac4e08e0" prot="public" virt="non-virtual"><scope>MainMenuController</scope><name>creditBtnOnClick</name></member>
+      <member refid="class_main_menu_controller_1afadd6dce5e7bb0444c48cd62ba810efd" prot="private" virt="non-virtual"><scope>MainMenuController</scope><name>CreditButton</name></member>
+      <member refid="class_main_menu_controller_1a4d4f79fdc5194e108997fb2b034bc144" prot="public" virt="non-virtual"><scope>MainMenuController</scope><name>prefBtnOnClick</name></member>
+      <member refid="class_main_menu_controller_1a37b255555378cc68d9856aef66e36a99" prot="private" virt="non-virtual"><scope>MainMenuController</scope><name>PreferenceButton</name></member>
+      <member refid="class_main_menu_controller_1a55f91b182c0d99e5697dd8a45aafb82b" prot="public" virt="non-virtual"><scope>MainMenuController</scope><name>quitBtnOnClick</name></member>
+      <member refid="class_main_menu_controller_1a4a60333935f76f5bdfcd24a809ec8721" prot="private" virt="non-virtual"><scope>MainMenuController</scope><name>QuitButton</name></member>
+      <member refid="class_main_menu_controller_1a732c505767ad16e6f4726f0e9643fa8a" prot="private" virt="non-virtual"><scope>MainMenuController</scope><name>Start</name></member>
+      <member refid="class_main_menu_controller_1a3093b0f91bebcc757bd100be4ec19951" prot="public" virt="non-virtual"><scope>MainMenuController</scope><name>startGameBtnOnClick</name></member>
+      <member refid="class_main_menu_controller_1ac8ee65de25015adeee8ee06dca4ff70a" prot="public" virt="non-virtual"><scope>MainMenuController</scope><name>StartGameButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
