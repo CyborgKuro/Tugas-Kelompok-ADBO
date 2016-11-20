@@ -2,8 +2,8 @@ DESKRIPSI SINGKAT TENTANG GAME "MEGAMAN RUN"
 
 Game Megaman run merupakan game yang sejenis dengan game t-rex milik google chrome tapi game ini 
 berbeda dengan game t-rex milik google chrome karena terdapat perbedaan player dan obstaclenya.
-Game ini terdiri dari beberapa objek seperti player dan obstacle, obstacle sendiri dari 6 obstacle dan dibagi menjadi 
-3 obstacle yang dapat terbang(Flying Obstacle) dan 3 obstacle yang berada diatas tanah (On the ground obstacle),
+Game ini terdiri dari beberapa objek seperti player dan obstacle, obstacle sendiri terdiri dari 9 obstacle dan dibagi menjadi 
+3 obstacle yang dapat terbang(Flying Obstacle) dan 6 obstacle yang berada diatas tanah (On the ground obstacle),
 kemudian yang menjadi player adalah Megaman sesuai dengan judul game nya Megaman Run.
 
 Kelas - Kelas dan Interface yang digunakan dalam game Megaman Run, antara lain :
