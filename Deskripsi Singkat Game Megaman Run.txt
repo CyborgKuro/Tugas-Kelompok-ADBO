@@ -1,0 +1,119 @@
+DESKRIPSI SINGKAT TENTANG GAME "MEGAMAN RUN"
+
+Game Megaman run merupakan game yang sejenis dengan game t-rex milik google chrome tapi game ini 
+berbeda dengan game t-rex milik google chrome karena terdapat perbedaan player dan obstaclenya.
+Game ini terdiri dari beberapa objek seperti player dan obstacle, obstacle sendiri dibagimenjadi 
+dua obstacle yang dapat terbang(Flying Obstacle) dan obstacle yang berada diatas tanah (On the ground obstacle),
+kemudian yang menjadi player adalah Megaman sesuai dengan judul game nya Megaman Run.
+
+Kelas - Kelas dan Interface yang digunakan dalam game Megaman Run, antara lain :
+
+1.Kelas Runner, kelas ini memiliki atribut :
+   - falling bertipe bool jika falling true maka sedang melompat dan jika false tidak sedang melompat
+   - jumpHeight beritpe int yang merupakan tinggi lompatan
+   - sfxjump bertipe AudioSource, Atribut yang akan mendapatkan audio source dari atribut soundFXJump
+   - soundFXJump bertipe AudioSource,Atribut yang akan diisikan audio source dari unity
+   - ukuranColliderX dan ukuranColliderY bertipe float,Ukuran collider x dan y
+   - suaraSedangJalan bertipe bool, Status apakah audio sedang jalan/bergerak
+  Kelas ini memiliki berbagai fungsi, seperti : untuk menggerakkan karakter(megaman/runner) sesuai input pemain,memungkinkan karakter 
+  untku melompet serta suara agar bisa diplay ulang,dan Mengecek apakah game sudah selesai atau belum, bila belum maka character akan digerakan.
+
+2.Kelas SiangMalam, kelas ini memiliki atribut :
+  -  HSVShader bertipe Shader, merupakan HSV shader
+  -  siang bertipe bool, jika  true = siang, false = malam
+  -  ob1 bertipe GameObject, merupakan object game 1
+  -  ob2 bertipe GameObject, merupakan obejct game 2
+  -  sr1 bertipe SpriteRenderer, merupakan Sprite renderer 1
+  -  sr2 bertipe SpriteRenderer, merupakan Sprite renderer 2
+  -  delay bertipe int, merupakan delay
+  -  delayDalamGame bertipe int, merupakan delay dalam game
+  Kelas ini memiliki berbagai fungsi, seperti : Menghilangkan bulan pada pertama kali dijalankan,Mengecek apakah game sudah selesai atau belum,
+  bila belum maka warna background akan diubah serta apakah bulan akan ditampilkan atau tidak.
+
+4.Kelas Shader
+  Kelas ini memiliki atribut HSVShader yang bertipe Shader.
+
+5.Kelas Transform 
+  Kelas ini mermiliki atribut campos(Camera posisition) yang bertipe trasform.
+
+6.Kelas OntheGroundObstacle,kelas ini memiliki atribut :
+  -  memiliki atribut yang diturunkan dari kelas obstacle
+  Kelas ini mermili fungsi untuk membuat obstacle yang berada diatas tanah(OntheObstacle)
+
+7.Kelas FlyingObstacle,kelas ini memiliki atribut :
+  -  memiliki atribut yang diturunkan dari kelas obstacle
+  Kelas ini mermili fungsi untuk membuat obstacle yang dapat terbang(FlyingObstacle)
+  
+8.Kelas GameObject
+  Kelas ini memiliki atribut ob,ob1,ob2 yang bertipe GameObject
+
+9.Kelas Obstacle,kelas ini memiliki atribut :
+  - ob bertipe GameObject[],merupakan Array of obstacle
+  - campos bertiper Transform, merupakan posisi kamera/Camera Position
+  - gap bertipe float, Gap antar obstacle
+  Kelas ini memiliki fungsi : Mengatur kemunculan obstacle
+  Kelas ini memiliki metode abstrak untuk membuat obsctacle baru.  
+
+10.Kelas Abstrak HighScoreScript, kelas ini memiliki atribut :
+   - High Scrore bertipe int, bernilai 0
+   - Game over bertiper bool, bernilai false
+
+11.Kelas PreferenceController,kelas ini memiliki atribut :
+   - returnButton bertipe Button, merupakan Button - button yang ada di PreferenceScene
+   - previousLevel bertipe string, Atribut yang menyimpan nama scene sebelumnya
+   kelas ini memiliki fungsi : mengatur volume suara dengan VolumeSlider dan Mengatur tindakan yang dilakukan saat button ReturnButton diklik,
+   Tindakan : Kembali ke layar sebelumnya.
+
+12.Kelas SoundController
+   Kelas ini memiliki fungsi : Mengatur music yang dimainkan pada scene tertentu.
+
+13.Kelas MonoBehaviour
+
+14.Kelas QuitCotroller,kelas ini memiliki atribut :
+   - YesButton dan NoButton bertipe Button, Button - button yang ada di QuitScene
+   - previousLevel bertipe string, Atribut yang menyimpan nama scene sebelumnya
+   Kelas ini memiliki fungsi : Mengatur tindakan yang dilakukan saat button YesButton diklik,tindakan : Keluar dari game, dan
+   Mengatur tindakan yang dilakukan saat button NoButton diklik, tindakan : Kembali ke layar sebelumnya.
+    
+15.Kelas MainMenuController,kelas ini memiliki atribut :
+   - StartGameButton, PreferenceButton, CreditButton, QuitButton
+     bertipe button, merupakan Button - button yang ada di MainMenuScene.
+     Kelas ini memili fungsi : Mengatur tindakan yang dilakukan saat button StartGameButton diklik,
+     Mengatur tindakan yang dilakukan saat button PreferenceButton diklik,Mengatur tindakan yang 
+     dilakukan saat button CreditButton diklik, Mengatur tindakan yang dilakukan saat button QuitButton diklik.
+      
+16.Kelas Button
+   Kelas ini memiliki atribut MainMenuButton,QuitButton,CreditButton,StarGameButton,PreferenceButton,YesButton,dan
+   ReturnButton yang bertipe Button. 
+
+17.Kelas GUIStyle
+   Kelas ini memiliki atribut style2 bertipe GUIsytle.
+
+18.Kelas CreditController,kelas ini memiliki atribut :
+   - MainMenubutton,  Button - button yang ada di CreditScene
+   Kelas ini memiliki fungsi untuk Mengatur tindakan yang dilakukan saat button StartGameButton diklik.
+   
+19.Kelas GameOver,kelas ini memiliki atribut :
+   - HighScore bertiper int, merupakan High Score
+   - style2 bertiper GUIstyle, merupakan style dari GUI(Graphic user interface)
+   - retry bertipe texture,Texture Retry.
+   - toMainMenu, Texture main menu.
+   - cam bertipe Camera, merupakan camera
+   Kelas ini memiliki fungsi : Mengatur kondisi game over setelah bertabrakan dengan Obstacle dan
+   Memunculkan pilihan setelah game over.
+
+20.Kelas Camera
+   Kelas ini memiliki atribut cam bertipe Camera.
+
+21.Kelas GameCotroller, kelas ini memiliki atribut :
+   - sc bertipe int, merupakan score 1
+   - sco bertiper int,merupakan score 2
+   - high bertipe int, merupakan high score
+   - style1 bertiper GUIstyle, merupakan style dari GUI(Graphic user interface)
+   Kelas ini memiliki berbagai fungsi, seperti : mengupdate score dan menampilkan score dilayar. 
+
+22. Kelas BackGround, kelas ini mermiliki atribut :
+    kelas ini mermiliki fungsi untuk mengatur gerak background
+
+23. Interface CanMove, yaitu interface yang digunakan untuk memberi kontrak kepada kelas yang implement dirinya
+    berupa method move yang digunakan untuk menggerakan.
